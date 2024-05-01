@@ -1,0 +1,42 @@
+1) to check version
+	$git  --version
+
+2)to install git
+	$sudo apt install git
+
+3) make new repository on github account
+
+4)create new folder on desktop
+
+5) create another folder inside  that folder
+
+6) cd New_Folder
+
+7) create new file inside sub folder
+
+8)To initialize the repository in our local machine in given folder
+ 	$git  init
+
+9) to add file in repository
+	$ git add file_name 
+or
+	$ git add .
+
+10) to check status
+ 	$ git status
+
+11) copy https url before commite
+	
+12) $git remote add -origin "url" 
+
+13) To commite change 
+	$git commite -m "First code"
+
+14) To push
+	$git push
+or
+	$git push -u origin master
+-------------------------------------------------------------------
+15)  if promted to Authenticate
+ 	$ git config --global user.email "xyz@gmail.com"
+	$git config --global user.name "Nikhil"

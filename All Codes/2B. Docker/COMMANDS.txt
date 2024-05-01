@@ -1,0 +1,45 @@
+STEPS :-
+
+1)to check docker is installed or not -
+	$ docker --version
+
+2) install docker form 
+	$ sudo apt install docker.io
+
+3) install docker extention on vs code
+	
+4)create new folder on desktop(lower case latter only)
+	eg. docker
+
+5) open that folder in vs code
+
+6) create one .js file in it
+	eg. nikhil.js
+
+7) write a below code in .js file
+	consol.log("Nikhil Valmik Bare");
+	consol.log("TE- I.T.");
+	consol,log("WAD");
+
+8) create docker file in same folder
+	eg. Dockerfile
+
+9) write a below code in Dokerfile
+	FORM	node: alpine
+	COPY  ./folder_name
+	CMD node/folder_name/nikhil.js
+
+10) Open new Terminal
+	$docker --version
+	$node nikhil.js (if node is install)	
+	$docker build -t  docker .
+	$docker images
+
+
+
+
+
+
+
+
+	

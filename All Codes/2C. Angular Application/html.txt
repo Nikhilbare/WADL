@@ -1,0 +1,9 @@
+Name: <input type="text" name="name" id="name" #name> <br>
+Email: <input type="email" name="email" id="email"
+#email><br>
+Password: <input type="password" name="password"
+id="password" #password><br>
+<button type="submit" (click)="getvalue(name.value,
+email.value, password.value)">Submit</button>
+<h2>Registered users</h2>
+<p>Name: {{getName}}</p>

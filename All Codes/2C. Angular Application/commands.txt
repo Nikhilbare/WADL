@@ -1,0 +1,21 @@
+in vs code terminal
+------------------------------------------------------->
+1) nmp -version
+
+2) to install angular cli
+	$npm install @angular/cli
+
+3)to create new application
+	$ng new Application_Name
+
+4)to open that application
+	$code Application_Name
+
+5) edit files--
+	-->app.componant.html
+& --> app.componant.ts
+
+6) to run 
+	$ng serve
+
+7) follow given link to open application in browser

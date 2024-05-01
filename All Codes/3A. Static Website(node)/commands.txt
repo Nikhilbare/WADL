@@ -1,0 +1,9 @@
+1) npm init -y
+
+2)npm i express
+3)create app.js file
+4)create public folder
+5)create 3  .html files
+6)write a same code in html files 
+
+7)node app.js
